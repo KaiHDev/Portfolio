@@ -13,17 +13,15 @@ const Logos = () => {
       <div
         className={`justify-between flex-row w-full my-4 grid ${styles.flexCenter}`}
       >
-        <div className={`${styles.flexCenter} grid lg:grid-cols-6 w-full`}>
+        <div
+          className={`${styles.flexCenter} grid lg:grid-cols-6 sm:grid-cols-4 ss:grid-cols-3 xs:grid-cols-2 w-full`}
+        >
           {logoList.map((logoList) => (
             <div
               key={logoList.id}
               className={`${styles.flexCenter} justify-between flex flex-col px-10 pt-5 rounded-[20px] max-w-[370px]  md:mr-10 sm:mr-5 mr-0 my-4 feedback-card`}
             >
-              <img
-                src={logoList.logo}
-                alt="logo"
-                className="sm:w-[192px] object-contain"
-              />
+              <img src={logoList.logo} alt="logo" className="object-contain" />
               <h2 className={`text-white my-4 ${styles.paragraph}`}>
                 {logoList.name}
               </h2>
