@@ -1,7 +1,7 @@
 import React from "react";
 import { coding } from "../assets";
 import styles, { layout } from "../style";
-import ResumeButton from "./ResumeButton";
+import ProjectsButton from "./ProjectsButton";
 
 const SoftwareEngineering = () => (
   <section className={layout.sectionReverse}>
@@ -24,7 +24,7 @@ const SoftwareEngineering = () => (
         working with a diverse tech stack including React, Node.js, C#, SQL, 
         and Microsoft tools like PowerApps, Power Automate, and Power BI.
       </p>
-      <ResumeButton styles="mt-10" />
+      <ProjectsButton styles="mt-10" />
     </div>
   </section>
 );

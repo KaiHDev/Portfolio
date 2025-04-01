@@ -3,7 +3,7 @@ import styles from "../style";
 import { macbookScreen, moviefinderapp } from "../assets";
 import SocialIcons from "./SocialIcons";
 import Typewriter from "typewriter-effect";
-import ResumeButton from "./ResumeButton";
+import ProjectsButton from "./ProjectsButton";
 import { FaCode } from "react-icons/fa";
 
 const Hero = () => {
@@ -47,7 +47,7 @@ const Hero = () => {
           Driven by a passion for both front-end and back-end development, 
           I focus on delivering impactful user experiences.
         </p>
-        <ResumeButton styles="mt-5" />
+        <ProjectsButton styles="mt-5"/>
         <SocialIcons styles="mt-5" />
       </div>
       <div
