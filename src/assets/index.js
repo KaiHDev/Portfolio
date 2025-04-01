@@ -1,7 +1,6 @@
 import menu from "./menu.svg";
 import close from "./close.svg";
 import macbookScreen from "./macbookScreen.png";
-import tomsbarbershero from "./TomsBarbersHero.png";
 import html from "./html.png";
 import css from "./css.png";
 import javascript from "./javascript.png";
@@ -24,7 +23,6 @@ export {
   menu,
   close,
   macbookScreen,
-  tomsbarbershero,
   html,
   css,
   javascript,
