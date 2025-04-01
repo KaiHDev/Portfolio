@@ -1,5 +1,5 @@
 import React from "react";
-import { tomsbarbershero } from "../assets";
+import { softwaredevelopmentteam } from "../assets";
 import styles, { layout } from "../style";
 import ResumeButton from "./ResumeButton";
 
@@ -8,22 +8,20 @@ const Design = () => {
     <section id="product" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          Design
-          <br className="sm:block hidden" /> Experience
+          Software
+          <br className="sm:block hidden" /> Development
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          My experience with design has been taking a set of instructions from a
-          client/designer and turning those visions into fully functioning
-          websites with my passion being around the users experience. An example
-          of this would be a site I created "Toms Barbers" a salon/barber shop
-          in Lincoln.
+          While at TotalMobile, I contributed to the development and maintenance of their flagship product, 'Connect,' 
+          working with technologies such as React, JavaScript, C#, and SQL. 
+          I also played an active role in sprint planning and team collaboration within an Agile environment.
         </p>
         <ResumeButton styles="mt-10" />
       </div>
       <div className={layout.sectionImgReverse}>
         <div className="w-full rounded-[20px] bg-gradient-to-r from-secondary to-secondaryLight p-1">
           <img
-            src={tomsbarbershero}
+            src={softwaredevelopmentteam}
             alt="billing"
             className="w-[auto] h-[auto] relative z-[5] rounded-[20px]"
           ></img>

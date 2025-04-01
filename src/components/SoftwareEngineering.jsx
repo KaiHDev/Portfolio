@@ -20,9 +20,9 @@ const SoftwareEngineering = () => (
         Experience
       </h2>
       <p className={`${styles.paragraph}  max-w-[470px] mt-5`}>
-        My current role requires me to research and develop solutions using
-        languages such as React, NodeJS, C#, SQL and Microsoft developed
-        platforms such as PowerApps/Automate/PowerBi.
+        During my time at Dynex, I designed and implemented solutions for various business needs, 
+        working with a diverse tech stack including React, Node.js, C#, SQL, 
+        and Microsoft tools like PowerApps, Power Automate, and Power BI.
       </p>
       <ResumeButton styles="mt-10" />
     </div>

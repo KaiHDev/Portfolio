@@ -3,14 +3,13 @@ import styles from "./style";
 import {
   Experience,
   WebDevelopment,
-  Design,
   SoftwareEngineering,
   SoftwareLogos,
   Footer,
   Navbar,
   PortfolioProjects,
   Hero,
-  Resume,
+  SoftwareDevelopment,
 } from "./components";
 
 const App = () => (
@@ -32,7 +31,7 @@ const App = () => (
         <Experience />
         <WebDevelopment />
         <SoftwareEngineering />
-        <Design />
+        <SoftwareDevelopment />
         <PortfolioProjects />
         <SoftwareLogos />
         <Footer />

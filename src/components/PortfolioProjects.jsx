@@ -14,11 +14,9 @@ const PortfolioProjects = () => (
         <p className={`${styles.paragraph} text-left max-w-[450px]`}></p>
       </div>
     </div>
-    <div className="flex flex-wrap sm:justify-start justify-center ml-2 mr-2 relative z-[1]">
+    <div className="flex flex-col md:flex-row flex-wrap justify-center gap-5 px-2 relative z-[1]">
       {projects.map((card) => (
-        <div key={card.id}>
-          <Projects key={card.id} {...card} />
-        </div>
+        <Projects key={card.id} {...card} />
       ))}
     </div>
   </section>

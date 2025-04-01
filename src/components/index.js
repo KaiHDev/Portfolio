@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Design from "./Design";
+import SoftwareDevelopment from "./SoftwareDevelopment"
 import SoftwareEngineering from "./SoftwareEngineering";
 import WebDevelopment from "./WebDevelopment";
 import SoftwareLogos from "./SoftwareLogos";
@@ -11,7 +11,7 @@ import Resume from "./ResumeButton";
 
 export {
   Navbar,
-  Design,
+  SoftwareDevelopment,
   SoftwareEngineering,
   WebDevelopment,
   SoftwareLogos,

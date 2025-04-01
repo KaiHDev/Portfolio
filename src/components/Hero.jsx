@@ -44,8 +44,8 @@ const Hero = () => {
           </h1>
         </div>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          I'm Passionate about developing great Front/Backend experiences for
-          end users.
+          Driven by a passion for both front-end and back-end development, 
+          I focus on delivering impactful user experiences.
         </p>
         <ResumeButton styles="mt-5" />
         <SocialIcons styles="mt-5" />

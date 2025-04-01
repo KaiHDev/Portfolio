@@ -38,10 +38,13 @@ const WebDevelopment = () => {
           Web Development <br className="sm:block hidden"></br>Experience.
         </h2>
         <p className={`${styles.paragraph} max-w-[407px] mt-5`}>
-          My time spent creating websites was prodominately using WordPress.
-          However I have been changing my tech stack to Front end development
-          using frameworks such as <b>React</b> tied in with Typescript and CSS
-          libraries such as TailWind.
+          I have a strong background in web development spanning several years, 
+          I’ve worked extensively across both content management systems and modern front-end frameworks. 
+          <br></br>
+          <br></br>
+          My experience began with building and maintaining websites using WordPress. 
+          Over time, I’ve transitioned into more advanced front-end development, 
+          gaining hands-on experience with technologies like React, TypeScript, and Tailwind CSS.
         </p>
         <Resume styles="mt-10" />
       </div>

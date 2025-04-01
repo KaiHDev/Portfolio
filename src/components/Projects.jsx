@@ -5,19 +5,21 @@ const Projects = (
   { content, name, imgProject, imgScreen, ProjectLink, CodeLink },
   { styles }
 ) => (
-  <div className="flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
+  <div className="w-full md:w-[48%] flex flex-col px-10 py-12 rounded-[20px] feedback-card">
     <div className="flex flex-row">
       <div className="flex flex-col relative">
-        <img
-          src={imgScreen}
-          alt={name}
-          className="flexCenter w-[auto] h-[auto] relative z-10"
-        />
-        <img
-          src={imgProject}
-          alt={name}
-          className="flexCenter w-[auto] h-[auto] absolute z-0 pl-8 pr-8 pt-2 object-center"
-        />
+        <div className="relative w-full flex justify-center items-center mb-6">
+          <img
+            src={imgScreen}
+            alt={`${name} screenshot`}
+            className="absolute top-0 left-1/2 transform -translate-x-1/2 z-10 w-[100%] h-auto"
+          />
+          <img
+            src={imgProject}
+            alt={`${name} frame`}
+            className="w-[76%] h-auto z-0 mt-4 sm-mt-0 object-cover rounded-md"
+          />
+        </div>
         <h4 className="font-poppins font-normal xs:text-[24px] text-[20px] xs:leading-[26px] leading-[21.58px] text-gradient uppercase mt-10 mb-5">
           {name}
         </h4>

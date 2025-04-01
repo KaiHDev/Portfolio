@@ -11,6 +11,7 @@ import {
   service,
   seo,
   comingsoon,
+  ecommerce
 } from "../assets";
 
 export const navLinks = [
@@ -45,7 +46,7 @@ export const features = [
     icon: shoppingcart,
     title: "Ecommerce website experience",
     content:
-      "Creating ecommerce stores with capability to connect to Amazon/Ebay using Woocommerce",
+      "Creating ecommerce stores with capability to connect to Amazon/Ebay using Woocommerce/Shopify",
   },
   {
     id: "feature-3",
@@ -59,33 +60,23 @@ export const features = [
 export const projects = [
   {
     id: "project-1",
+    name: "Ecommerce Website",
+    content:
+      "This full-stack e-commerce application was developed using React and Next.js for the front end, with Supabase serving as the backend for data storage, authentication, and file handling. The interface was styled using Tailwind CSS, with MUI's DataGrid used for admin product management.",
+    imgScreen: macbookScreen,
+    imgProject: ecommerce,
+    ProjectLink: "https://khe-commerce.netlify.app/",
+    CodeLink: "https://github.com/KaiHDev/ecommerce-site",
+  },
+  {
+    id: "project-2",
     name: "Movie Finder App",
     content:
-      "This project was created to showcase pulling in data from an API and also adding functionality to search the data within that API call.",
+      "This movie finder application was built using React for the front end and styled with Tailwind CSS. It utilizes a third-party movie API to fetch and display movie data dynamically. It works by searching and displaying key movie details, demonstrating API integration and responsive interface design.",
     imgScreen: macbookScreen,
     imgProject: moviefinderapp,
     ProjectLink: "https://moviefinderkh.netlify.app",
     CodeLink: "https://github.com/KaiHDev/MovieFinder",
-  },
-  {
-    id: "project-2",
-    name: "Ecommerce Store",
-    content:
-      "This project consisted of connecting to CommerceJS to host the products/payment gateway and was built with React",
-    imgScreen: macbookScreen,
-    imgProject: comingsoon,
-    ProjectLink: "https://github.com/KaiHDev/",
-    CodeLink: "https://github.com/KaiHDev/",
-  },
-  {
-    id: "project-3",
-    name: "Dashboard App",
-    content:
-      "This project consisted of connecting to CommerceJS to host the products/payment gateway and was built with React",
-    imgScreen: macbookScreen,
-    imgProject: comingsoon,
-    ProjectLink: "https://github.com/KaiHDev/",
-    CodeLink: "https://github.com/KaiHDev/",
   },
 ];
 
@@ -98,11 +89,11 @@ export const experience = [
   {
     id: 2,
     title: "Software Engineering",
-    value: "1 Year",
+    value: "2 Years",
   },
   {
     id: 3,
-    title: "Design Experience",
+    title: "Development",
     value: "2 Years",
   },
 ];
